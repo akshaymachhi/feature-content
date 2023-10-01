@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* <!-----------------------FEATURE-CONTENT------------------------ --> */
+
+.image-block img {
+    background-size: cover;
+    width: 100%;
+    background-position: center
+}
+
+.feature-main {
+    margin: 50px 0;
+}
+
+.image-text p {
+    text-align: justify;
+}
+
+.image-text h2 {
+    padding-bottom: 10px;
+}
+
+/* -------------------------MEDIA QUERY------------------------ */
+@media (max-width:990px) {
+    .image-alignment {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:760px) {
+
+    .feature-main {
+        margin: 20px 0;
+    }
+
+    .image-text {
+        padding-top: 20px;
+    }
+
+}
